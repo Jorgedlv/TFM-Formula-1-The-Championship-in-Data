@@ -1,0 +1,190 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-family: Arial;
+}
+
+.container1 {
+    background-color: grey;
+    height: 80vh;
+    margin: 5vh;
+    height: 91vh;
+}
+
+.container2 {
+    background-color: rgb(71, 70, 70);
+    margin: 5vh;
+    height: 80vh;
+    border: solid;
+    border-color: white;
+
+}
+
+.buttonLink1 {
+    margin-top: 8vh;
+    height: 20%;
+    width: 100%;
+    object-fit: cover;
+    background-color: transparent;
+    border: none;
+}
+
+.insideButton1 {
+    background-image: url('button1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+
+.buttonLink2 {
+    margin-top: 5vh;
+    height: 20%;
+    width: 100%;
+    background-color: transparent;
+    /* position: relative;
+    left: 50vh;     */
+    object-fit: cover;
+    border: none;
+}
+
+.insideButton2 {
+    background-image: url('button2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+.buttonLink3 {
+    margin-top: 5vh;
+    height: 20%;
+    width: 100%;
+    background-color: transparent;
+    /* position: relative;
+    left: 50vh;     */
+    object-fit: cover;
+    border: none;
+}
+
+.insideButton3 {
+    background-image: url('button3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.textHome{
+    font-size: 1.5rem;
+    margin-left: 10vh;
+    color: white;
+    margin-top: 1%;
+    font-family: Arial;
+    width: 100%;
+
+}
+
+.textHeader{
+ position: relative;
+ bottom: -4vh;
+ left: 10vh;
+ color: white;
+ font-weight: bold;
+ font-size: 1.5rem;
+ margin: none;
+
+}
+
+
+
+.one {
+    margin-top: 8.75rem;
+    margin-left: 11rem;
+
+}
+
+.two {
+    margin: 0.75rem;
+}
+
+.header {
+    color: white;
+}
+
+.home {
+    color: white;
+}
+
+button {
+    z-index: 10;
+}
+
+.background {
+    background-color: grey;
+    z-index: 3;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.backgroundbuttons {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+    border-color: black;
+    border-width: medium;
+    z-index: 5;
+    background-color: black;
+    opacity: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.buttonHistory {
+    height: 8rem;
+    width: 68rem;
+    background-color: transparent;
+    border: none;
+}
+
+.buttonData {
+    height: 8rem;
+    width: 68rem;
+    margin-left: 11rem;
+    background-color: transparent;
+    border: none;
+
+}
+
+.buttonNews {
+    height: 8rem;
+    width: 68rem;
+    margin-left: 11rem;
+    background-color: transparent;
+    border: none;
+}
+
+.buttonHome {
+    color: rgb(255, 255, 255);
+    mix-blend-mode: luminosity;
+}
+
+.footerHome {
+    margin-left: 2rem;
+    margin-top: 1rem;
+
+}
+
+h3 {
+    margin: 0;
+    color: grey;
+
+}

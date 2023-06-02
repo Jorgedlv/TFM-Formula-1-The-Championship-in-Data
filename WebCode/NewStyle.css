@@ -1,0 +1,89 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-family: Arial;
+}
+
+.container1 {
+    background-color: grey;
+    height: 80vh;
+    margin: 5vh;
+    height: 93vh;
+}
+
+.container2 {
+    background-color: rgb(71, 70, 70);
+    margin: 5vh;
+    height: 80vh;
+    border: solid;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.bottonHome {
+    position: relative;
+    bottom: -4vh;
+    background-color: transparent;
+    margin-left: 5vh;
+}
+.insideButtonHome{
+    font-size: 1.5rem;
+    color: white;
+
+}
+.ButtonLinkHome{
+    margin-top: 1.5rem;
+    width: 7rem;
+    height: 4rem;
+    margin-left: 6rem;
+    background-color: transparent;
+    border: none;
+}
+.ButtonLinkHome{
+    margin-top: 1.5rem;
+    width: 7rem;
+    height: 4rem;
+    margin-left: 6rem;
+    background-color: transparent;
+    border: none;
+    display: inherit;
+}
+.ButtonLinkHistory{
+    margin-top: 2.5rem;
+    display: inherit;
+    width: 7rem;
+    margin-left: 48.5rem;
+    background-color: transparent;
+    height: 3.5rem;
+    border:none;
+}
+.ButtonLinkData{
+    margin-top: 2.5rem;
+    display: inherit;
+    width: 6.70rem;
+    margin-left: 0.60rem;
+    background-color: transparent;
+    height: 3.5rem;
+    border:none;
+}
+.ButtonLinkNews{
+    margin-top: 2.5rem;
+    display: inherit;
+    width: 6.70rem;
+    margin-left: 0.60rem;
+    background-color: transparent;
+    height: 3.5rem;
+    border: none;
+}
+.buttonTop{
+    display: flex;
+    flex-direction: row;
+}
+.feedNews{
+    margin: 1rem;
+}

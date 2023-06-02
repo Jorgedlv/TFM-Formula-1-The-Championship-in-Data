@@ -1,0 +1,106 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-family: Arial;
+}
+
+.container1 {
+    background-color: grey;
+    height: 80vh;
+    margin: 5vh;
+    height: 93vh;
+}
+
+.container2 {
+    background-color: rgb(71, 70, 70);
+    margin: 5vh;
+    height: 80vh;
+    border: solid;
+    border-color: white;
+
+}
+
+.images {
+    /* background-image: url('History.svg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: auto;
+}
+
+.ButtonLinkHome {
+    margin-top: 1.5rem;
+    width: 7rem;
+    height: 4rem;
+    margin-left: 6rem;
+    background-color: transparent;
+    border: none;
+    display: inherit;
+}
+
+.ButtonLinkHistory {
+    margin-top: 2.5rem;
+    display: inherit;
+    width: 7rem;
+    margin-left: 48.5rem;
+    background-color: transparent;
+    height: 3.5rem;
+    border: none;
+}
+
+.ButtonLinkData {
+    margin-top: 2.5rem;
+    display: inherit;
+    width: 6.70rem;
+    margin-left: 0.60rem;
+    background-color: transparent;
+    height: 3.5rem;
+    border: none;
+}
+
+.ButtonLinkNews {
+    margin-top: 2.5rem;
+    display: inherit;
+    width: 6.70rem;
+    margin-left: 0.60rem;
+    background-color: transparent;
+    height: 3.5rem;
+    border: none;
+}
+
+.buttonTop {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    color: white;
+    max-height: calc(100vh - 25vh);
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.bottonHome {
+    position: relative;
+    bottom: -4vh;
+    background-color: transparent;
+    margin-left: 5vh;
+}
+.insideButtonHome{
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.img {
+    margin-bottom: 1.5rem;
+    left: 55vh;
+    position: relative;
+    width: max-content;
+}
